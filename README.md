@@ -1,5 +1,6 @@
 <h2>Motivation</h2>
-Configureable UI. Use case : suppose you have a quiz app each quiz has few quiz items and each item has question and few possible answers. In its most basic use case all questions and answers are string and you can use e.g p element to render them. However, some time the question is a string , followed by an image. Some this this string is special because it has js code or html code and you need other componet to render it. So we need a flexiable mechanizm to create components and the set of these component is known a-priori
+<p>Configureable UI<p>
+ Use case : suppose you have a quiz app each quiz has few quiz items and each item has question and few possible answers. In its most basic use case all questions and answers are string and you can use e.g p element to render them. However, some time the question is a string , followed by an image. Some this this string is special because it has js code or html code and you need other componet to render it. So we need a flexiable mechanizm to create components and the set of these component is known a-priori
 
 
 <h2>Design</h2>
@@ -33,5 +34,9 @@ const elems = order.map((it) =>
 ```
 
 <h2>Points of interest</h2>
-Typescript make it easy : in particula interface and enum 
+<ul>
+<li>Typescript make it easy : in particula interface and enum </li>
+<li>The configureable ui is typically store on a database e.g. mongodb</li>
+</ul>
+
 

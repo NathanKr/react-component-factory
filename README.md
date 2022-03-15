@@ -9,6 +9,7 @@ A component in react is an object and there is a need to create it. This will be
 
 
 <h2>componentFactory</h2>
+
 ```
 export  function componentFactory(item : IComponentFactoryItem) : ReactElement{
     const {name,props} = item;
@@ -23,6 +24,7 @@ export  function componentFactory(item : IComponentFactoryItem) : ReactElement{
             throw new Error(`Unexpected ComponentFactoryItemName : ${name}`);
     }
 }
+
 ```
 
 <h2>Usage</h2>

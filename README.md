@@ -8,7 +8,7 @@
 A component in react is an object and there is a need to create it. This will be done using the factory method called here componentFactory. I am using simple Person and Book components to show this
 
 
-<h2>componentFactory</h2>
+<h2>component factory method</h2>
 
 ```
 export  function componentFactory(item : IComponentFactoryItem) : ReactElement{

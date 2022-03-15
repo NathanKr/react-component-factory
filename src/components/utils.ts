@@ -3,8 +3,8 @@ import Book from "./Book";
 import Person from "./Person";
 
 export enum ComponentFactoryItemName{
-    person,
-    book
+    person, 
+    book 
 }
 
 export interface IComponentFactoryItem{
